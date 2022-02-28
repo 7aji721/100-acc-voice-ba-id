@@ -164,7 +164,7 @@ jano12.on("ready", () => {
 });
 ///////////////////
 jano13.on("ready", () => {
-  var join = jano13.channels.get(""); /// id voice
+  var join = jano13.channels.get("3"); /// id voice
   if (join) join.join();
 });
 ///////////////////
